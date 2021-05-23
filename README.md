@@ -2,7 +2,7 @@
 Automatically send you calendar to yourself in gmail/google
 
 # YouTube Tutorial
-https://www.youtube.com/watch?v=f7Amfa2VIS4
+https://www.youtube.com/watch?v=JTpbuDzYFyU
 
 # Idea
 This script is written in Google Apps Script.
