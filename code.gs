@@ -1,7 +1,7 @@
 function sendListCalendarOfTodayByEmail() {
-  const calendarPerson1 = getFirstCalendarWithName('Agenda Wim'); // <- REPLACE Person1 with your calendar's name!
+  const calendar = getFirstCalendarWithName('YOUR CALENDAR NAME'); // <- REPLACE with your calendar's name!
   const now = new Date();
-  const events = calendarPerson1.getEventsForDay(now);
+  const events = calendar.getEventsForDay(now);
   const data = events
     .map(getEventData)
     .sort(sortStartTime)
