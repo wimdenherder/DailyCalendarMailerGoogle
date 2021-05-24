@@ -6,7 +6,7 @@ function sendListCalendarOfTodayByEmail() {
     .map(getEventData)
     .sort(sortStartTime)
     .map(displayEvent);
-  const list = data.join("<br>") + "<br><br>Send with script: https://script.google.com/d/11CywvQfaI0bBiCaqv5iID0bQZgdGMoziFY-KO_dMN8RjpV0zWlvhSxXA/edit";
+  const list = data.join("<br>") + "<br><br>Send with script: PUT A LINK TO YOUR SCRIPT HERE";
   sendRichTextEmail(Session.getEffectiveUser().getEmail(), 'calendar today', list);
 }
 
